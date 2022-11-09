@@ -170,6 +170,10 @@ footer{
         flex-wrap: wrap;
     }
 
+    .col-benefits{
+        width: 45%;
+    }
+
 }
 
 /* desktop */
@@ -188,10 +192,6 @@ footer{
         width: 30%;
     }
 
-    .row-section4{
-        flex-wrap: wrap;
-    }
-
     .row-header, .row-section1, .row-section2, .row-section3, .row-section4, .row-section5 {
         width: 75%;
         margin: 0 auto;
@@ -200,6 +200,10 @@ footer{
     .row-section6, .row-section-footer{
         width: 50%;
         margin: 0 auto;
+    }
+
+    .col-benefits{
+        width: 25%;
     }
 
 }
