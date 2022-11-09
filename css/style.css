@@ -176,7 +176,7 @@ footer{
 
 @media screen and (min-width:992px) {
 
-    .row-section1, .row-section2, .row-section3, .row-section4, .row-section5, .row-section6 {
+    .row-section1, .row-section2, .row-section4, .row-section5, .row-section6 {
         flex-direction: row;
     }
 
@@ -191,4 +191,15 @@ footer{
     .row-section4{
         flex-wrap: wrap;
     }
+
+    .row-header, .row-section1, .row-section2, .row-section3, .row-section4, .row-section5 {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .row-section6, .row-section-footer{
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
