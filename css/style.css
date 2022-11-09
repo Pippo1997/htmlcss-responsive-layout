@@ -15,7 +15,7 @@
 
 .col{
     margin: 1rem;
-    padding: 1rem;
+    padding: 0rem 1rem;
     border-radius: 1rem;
 }
 
@@ -41,10 +41,18 @@ header{
     justify-content: space-between;
 }
 
-.col-header{
+.col-ham{
     width: 50%;
-    background-color: white;
+    display: flex;
+    justify-content: flex-end;
 }
+.hamburger{
+    color: white;
+    font-size: 30px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
 
 /* section 1 */
 
