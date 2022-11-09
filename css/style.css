@@ -172,11 +172,11 @@ footer{
 
 }
 
-/* desktop
+/* desktop */
 
-@media screen and (min-width:992px) and (max-width:1200px){
+@media screen and (min-width:992px) and (max-width:1200px) {
 
-    .row-section1, .row-section2, .row-section3, .row-section4, .row-section5, .row-section6,{
+    .row-section1, .row-section2, .row-section3, .row-section4, .row-section5, .row-section6 {
         flex-direction: row;
     }
 
@@ -191,5 +191,4 @@ footer{
     .row-section4{
         flex-wrap: wrap;
     }
-
-} */
+}
