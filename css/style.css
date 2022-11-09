@@ -50,7 +50,6 @@ header{
 }
 
 .col-ham{
-    width: 50%;
     display: flex;
     justify-content: flex-end;
 }
@@ -116,12 +115,40 @@ header{
 
 .row-section2{
     flex-direction: column;
+    color: white;
+}
+
+.paln1{
+    width: 100%;
 }
 
 .col-50{
     width: 100%;
-    height: 200px;
+}
+
+.background-white{
+    margin: 1rem;
+    padding: 0rem 1rem;
+    border-radius: 1rem;
     background-color: white;
+    color: black;
+}
+
+.corsivo{
+    font-style: oblique;
+}
+
+.fa-arrow-down{
+    font-size: 15px;
+}
+
+.arrow{
+    background-color: rgba(0,132,253,255);
+    border-radius: 50%;
+    border-style: none;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
 }
 
 /* section 3 */
