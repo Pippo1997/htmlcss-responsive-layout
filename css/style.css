@@ -9,6 +9,7 @@
 .row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 20px;
 }
 
@@ -47,9 +48,8 @@ header{
 
 /* section 1 */
 
-.row-section{
+.row-section1{
     flex-direction: column;
-    align-items: center;
 }
 
 .col-70{
@@ -60,7 +60,7 @@ header{
 
 .col-30{
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: rgba(181,221,255,255);
 }
 .col-33{
@@ -71,6 +71,10 @@ header{
 
 /* section 2 */
 
+.row-section2{
+    flex-direction: column;
+}
+
 .col-50{
     width: 100%;
     height: 200px;
@@ -78,6 +82,10 @@ header{
 }
 
 /* section 3 */
+
+.row-section3{
+    flex-direction: column;
+}
 
 .col-testimonials{
     width: 100%;
@@ -93,6 +101,10 @@ header{
 
 /* section 4 */
 
+.row-section4{
+    flex-direction: column;
+}
+
 .col-benefits{
     width: 100%;
     height: 200px;
@@ -101,8 +113,16 @@ header{
 
 /* section 5 */
 
+.row-section5{
+    flex-direction: column;
+}
+
 
 /* section 6 */
+
+.row-section6{
+    flex-direction: column;
+}
 
 .col-free{
     width: 100%;
@@ -116,8 +136,60 @@ footer{
     background-color: rgba(51,51,51,255);
 }
 
+.row-section-footer{
+    flex-direction: column;
+}
+
 .col-footer{
     width: 100%;
     height: 50px;
     background-color: white;
 }
+
+/************************************************
+    RESPONSIVE
+ ************************************************/
+
+/* tablet */
+
+@media screen and (min-width:768px) {
+
+    .row-section1, .row-section4, .row-section5{
+        flex-direction: row;
+    }
+
+    .col-70{
+        width: 70%;
+    }
+
+    .col-30{
+        width: 30%;
+    }
+
+    .row-section4{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* desktop
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    .row-section1, .row-section2, .row-section3, .row-section4, .row-section5, .row-section6,{
+        flex-direction: row;
+    }
+
+    .col-70{
+        width: 70%;
+    }
+
+    .col-30{
+        width: 30%;
+    }
+
+    .row-section4{
+        flex-wrap: wrap;
+    }
+
+} */
