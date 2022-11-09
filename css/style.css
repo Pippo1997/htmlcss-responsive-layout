@@ -174,7 +174,7 @@ footer{
 
 /* desktop */
 
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:992px) {
 
     .row-section1, .row-section2, .row-section3, .row-section4, .row-section5, .row-section6 {
         flex-direction: row;
