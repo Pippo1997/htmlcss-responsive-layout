@@ -11,7 +11,7 @@ body{
 /* Utilities */
 
 .container{
-    max-width: 550px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -103,7 +103,6 @@ ul{
     background-color: rgba(181,221,255,255);
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .blue{
@@ -120,8 +119,7 @@ ul{
 }
 
 .phone{
-    width: 50%;
-    position: absolute;
+    width: 100%;
 }
 
 .col-30{
@@ -140,6 +138,15 @@ ul{
 
 .fa-solid{
     font-size: 50px;
+}
+
+.width-60{
+    width: 100%;
+}
+
+.width-40{
+    width: 100%;
+    padding-top: 20px;
 }
 
 /* section 2 */
@@ -258,13 +265,14 @@ ul{
 .img-about{
     width: 50%;
     border-radius: 50%;
+}
+
+.reltive{
     position: relative;
 }
 
 .absolute{
-    left: 200px;
-    top: 10px;
-    font-size: 10px;
+    font-size: 100px;
     color: rgba(151,146,228,255);
     position: absolute;
 }
@@ -349,11 +357,11 @@ a{
     }
 
     .col-70, .col-about-us{
-        width: 70%;
+        width: 60%;
     }
 
     .col-30, .col-linkedin{
-        width: 30%;
+        width: 45%;
     }
 
     .row-section4{
@@ -375,11 +383,11 @@ a{
     }
 
     .col-70, .col-about-us{
-        width: 70%;
+        width: 60%;
     }
 
     .col-30, .col-linkedin{
-        width: 30%;
+        width: 45%;
     }
 
     .container {
@@ -402,6 +410,22 @@ a{
 
     .col-list{
         display: block;
+    }
+
+    .width-40{
+        width: 35%;
+        position: relative;
+        padding-top: 20px;
+    }
+
+    .phone{
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .width-60{
+        width: 60%;
     }
 
 }
