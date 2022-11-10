@@ -11,7 +11,7 @@ body{
 /* Utilities */
 
 .container{
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -54,6 +54,7 @@ header{
 
 .row-header{
     justify-content: space-between;
+    align-items: center;
 }
 
 .col-ham{
@@ -67,7 +68,28 @@ header{
     border-style: none;
     background-color: transparent;
     cursor: pointer;
+    display: block;
 } 
+
+.col-list{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.button-list{
+    background-color: white;
+    border-radius: 1rem;
+    border-style: none;
+    color: black;
+    padding: 5px 15px;
+    cursor: pointer;
+}
 
 /* section 1 */
 
@@ -357,7 +379,7 @@ a{
     }
 
     .container {
-        width: 75%;
+        width: 980px;
         margin: 0 auto;
     }
 
@@ -368,6 +390,14 @@ a{
 
     .col-benefits{
         width: 25%;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .col-list{
+        display: block;
     }
 
 }
