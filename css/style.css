@@ -220,6 +220,34 @@ header{
     flex-direction: column;
 }
 
+.col-about-us{
+    width: 100%;
+}
+
+.col-linkedin{
+    width: 100%;
+}
+
+.img-about{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.absolute{
+    left: 200px;
+    top: 10px;
+    font-size: 10px;
+    color: rgba(151,146,228,255);
+}
+
+.linkedin{
+    background-color: rgba(151,146,228,255);
+    border-radius: 1rem;
+    border-style: none;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+}
 
 /* section 6 */
 
@@ -261,11 +289,11 @@ footer{
         flex-direction: row;
     }
 
-    .col-70{
+    .col-70, .col-about-us{
         width: 70%;
     }
 
-    .col-30{
+    .col-30, .col-linkedin{
         width: 30%;
     }
 
@@ -287,11 +315,11 @@ footer{
         flex-direction: row;
     }
 
-    .col-70{
+    .col-70, .col-about-us{
         width: 70%;
     }
 
-    .col-30{
+    .col-30, .col-linkedin{
         width: 30%;
     }
 
