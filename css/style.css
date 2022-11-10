@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Utilities */
 
 .row{
@@ -159,14 +163,31 @@ header{
 
 .col-testimonials{
     width: 100%;
-    background-color: rgba(151,146,228,255);
-    height: 100px;
+}
+
+.color-purple{
+    color: rgba(151,146,228,255);
 }
 
 .col-card{
     width: 100%;
     background-color: rgba(151,146,228,255);
-    height: 100px;    
+    display: flex;
+    flex-direction: column;
+    color: white; 
+}
+
+.img-card{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.fa-quote-left{
+    font-size: 20px;
+}
+
+.fa-quote-right{
+    font-size: 20px;
 }
 
 /* section 4 */
@@ -241,7 +262,7 @@ footer{
     }
 
     .col-benefits{
-        width: 45%;
+        width: 40%;
     }
 
 }
