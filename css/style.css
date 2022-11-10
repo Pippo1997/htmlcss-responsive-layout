@@ -10,11 +10,14 @@ body{
 
 /* Utilities */
 
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 20px;
 }
 
 .col{
@@ -126,7 +129,7 @@ header{
     width: 100%;
 }
 
-.col-50{
+.col-strategic, .col-app{
     width: 100%;
 }
 
@@ -310,7 +313,12 @@ a{
 
 @media screen and (min-width:768px) {
 
-    .row-section1, .row-section4, .row-section5{
+    .container{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .row-section1, .row-section4, .row-section5, .col-card{
         flex-direction: row;
     }
 
@@ -336,7 +344,7 @@ a{
 
 @media screen and (min-width:992px) {
 
-    .row-section1, .row-section2, .row-section4, .row-section5, .row-section6 {
+    .row-section1, .row-section2, .row-section4, .row-section5, .row-section6, .col-70{
         flex-direction: row;
     }
 
@@ -348,7 +356,7 @@ a{
         width: 30%;
     }
 
-    .row-header, .row-section1, .row-section2, .row-section3, .row-section4, .row-section5 {
+    .container {
         width: 75%;
         margin: 0 auto;
     }
@@ -360,6 +368,16 @@ a{
 
     .col-benefits{
         width: 25%;
+    }
+
+}
+
+/* large desktop */
+
+@media screen and (min-width:1200px) {
+    
+    .container{
+        max-width: 1140px;
     }
 
 }
