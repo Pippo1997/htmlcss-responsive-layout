@@ -120,6 +120,7 @@ ul{
 
 .phone{
     width: 100%;
+    display: block;
 }
 
 .col-30{
